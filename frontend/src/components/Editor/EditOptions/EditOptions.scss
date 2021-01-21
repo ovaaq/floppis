@@ -1,0 +1,32 @@
+@import '../../../assets/sass/variables.scss';
+
+
+.editor-options {
+  border-top: 0px;
+  margin: auto;
+text-align: center;
+
+}
+
+.centered {
+margin: auto;
+text-align: center;
+}
+
+.tabs.is-boxed {
+  margin-bottom: 0px;
+}
+
+.button{
+  font-weight: bold;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+.options-container {
+  max-height: 574px;
+  overflow-y: auto;
+  overflow-x:hidden;
+}

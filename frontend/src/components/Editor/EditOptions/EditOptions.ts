@@ -1,5 +1,11 @@
+import OptionButton from "@/components/Editor/EditOptions/OptionButton/OptionButton.vue";
+
 export default {
-    name: "TabButton",
+    name: "EditOptions",
+    components: {
+      OptionButton,
+    },
+  
     props: {
         tabData: Object,
       },

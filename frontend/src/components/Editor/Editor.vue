@@ -3,13 +3,7 @@
     <div class="container">
       <div class="columns">
         <div class="column is-6">
-          <div class="tile is-parent">
-            <article class="tile is-child is-light is-border">
-              <figure class="image">
-                <img src="https://skripti.org/img/team/FloppisHeart.png" />
-              </figure>
-            </article>
-          </div>
+          <Floppis />
         </div>
         <div class="column">
           <div class="buttons has-addons is-centered">

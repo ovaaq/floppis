@@ -1,0 +1,13 @@
+@import '../../../../assets/sass/variables.scss';
+
+.image-container {
+    position: relative;
+  }
+  
+  .layer-image {
+    position: absolute;
+  }
+
+  .second-image {
+    margin-top: -100%;
+  }

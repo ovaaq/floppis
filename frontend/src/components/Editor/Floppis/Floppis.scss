@@ -1,0 +1,14 @@
+@import '../../../assets/sass/variables.scss';
+
+.is-border {
+    border: 4px solid hsl(0, 0%, 71%);
+    border-radius: 3px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .layer-image {
+    position: absolute;
+  }

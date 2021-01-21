@@ -1,11 +1,13 @@
 import TabButton from "@/components/Editor/TabButton/TabButton.vue";
 import EditOptions from "@/components/Editor/EditOptions/EditOptions.vue";
+import Floppis from "@/components/Editor/Floppis/Floppis.vue";
 
 export default {
-  name: "ChessBoard",
+  name: "Editor",
   components: {
     TabButton,
-    EditOptions
+    EditOptions,
+    Floppis
   },
   props: {},
   data() {

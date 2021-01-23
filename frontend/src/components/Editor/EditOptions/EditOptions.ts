@@ -1,4 +1,5 @@
 import OptionButton from "@/components/Editor/EditOptions/OptionButton/OptionButton.vue";
+import _ from "lodash";
 
 export default {
     name: "EditOptions",
@@ -7,24 +8,13 @@ export default {
     },
   
     props: {
-        tabData: Object,
+        images: Object,
       },
-    data() {
-      return {
-        isSelected: false,
-      };
-    },
-    mounted() {
-        this.$root.$on("tabClick", (data) => {
-            this.isSelected = false;
-        });
+
+      computed: {
+        productChunks(){
+            return _.chunk(Object.values(this.images), 3);
+        }
       },
-    
-    methods: {
-      isClicked: function() {
-        this.$root.$emit("tabClick", this.tabData.name);
-        this.isSelected = true;
-    },
-    },
   };
   

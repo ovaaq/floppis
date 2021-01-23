@@ -16,7 +16,25 @@ export default {
         {
           name: "Eyes",
           icon: "eye",
-          images: [],
+          images: [
+            {
+              name: "neutral",
+              link: "https://raw.githubusercontent.com/ovaaq/floppis/master/images/eyes/neutral.png"
+            },
+            {
+              name: "bold",
+              link: "https://raw.githubusercontent.com/ovaaq/floppis/master/images/eyes/bold.png"
+            },
+            {
+              name: "anger",
+              link: "https://raw.githubusercontent.com/ovaaq/floppis/master/images/eyes/anger.png"
+            },            {
+              name: "drowsy",
+              link: "https://raw.githubusercontent.com/ovaaq/floppis/master/images/eyes/drowsy.png"
+            },
+
+        ]
+
         },
         {
           name: "Mouth",

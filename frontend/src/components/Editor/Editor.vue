@@ -15,7 +15,11 @@
           </div>
 
           <div class="editor-options is-centered">
-            <EditOptions />
+            <EditOptions
+              v-for="editData in dummydata"
+              :key="editData.name"
+              :images="editData.images"
+            />
           </div>
         </div>
       </div>

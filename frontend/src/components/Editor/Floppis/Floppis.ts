@@ -7,15 +7,15 @@ export default {
             {
         name: "moi",
         link: "https://raw.githubusercontent.com/ovaaq/floppis/master/images/eyes/neutral.png"
-            },
+            },        
 
         ]
     };
   },
 
   mounted() {
-    this.$root.$on("tabClick", (data) => {
-        this.selected = data;
+    this.$root.$on("optionClick", (data) => {
+        this.layers[0].link = data.link
     });
   },
 };

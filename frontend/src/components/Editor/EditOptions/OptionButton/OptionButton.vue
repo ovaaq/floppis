@@ -1,16 +1,13 @@
 <template>
   <div class="tile is-parent">
     <article class="tile is-child is-light">
-      <button class="image">
+      <button class="image" v-on:click="isClicked">
         <div class="image-container">
           <img
             class=""
             src="https://raw.githubusercontent.com/ovaaq/floppis/master/images/floppis_base.png"
           />
-          <img
-            class="second-image"
-            src="https://raw.githubusercontent.com/ovaaq/floppis/master/images/eyes/neutral.png"
-          />
+          <img class="second-image" :src="image.link" />
         </div>
       </button>
     </article>
